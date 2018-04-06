@@ -1,0 +1,75 @@
+body {
+	margin: 0 auto;
+	width: 960px;
+	background-color: #D3FFF1;
+}
+.alpha, .beta {
+	/* using a comma seperates the classes and tells the browser to read each HTML selector independently and apply the CSS to both elements */
+	float: left;
+	width: 480px;
+}
+#header {
+	background-color: #85C5DA; /* light blue */
+}
+#footer {
+	background-color: #DCD6ED; /* light purple */
+	clear: left; /* prevents footer from floating into .content */
+	border: 1px solid #000;
+}
+ul { 
+   padding-left: 0; 
+   list-style: none;
+   font-family: 'Poor Story', cursive;
+   font-size: 25px;
+}
+  #nav li {
+	  float: left; /* Gets all list items in nav to appear on the same line */
+	  list-style: none; /* Eliminates all the bullet points */
+	  margin-right: 60px; /*Provides a gap petween each list item */
+  }
+    #nav a { /* This reads so that only links within #nav get the following style */
+		color: #A77573;
+		text-decoration: none; /* Eliminates the underline */
+        font-family: 'Courgette', cursive;
+        font-size: 20px;
+	}
+	  #nav a:hover { /* When the links are hovered over, the following will happen */
+		  color: #754341; /* red-ish color */
+		  text-decoration: underline;
+	  }  
+h1 {
+	color: #2E1D5D;
+	font-size: 70px;
+	font-family: 'Poor Story', cursive;
+	text-transform: uppercase;
+	text-align: center;
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+h2 {
+	color: #54457E;
+	font-family: 'Courgette', cursive;
+	font-size: 40px;
+}
+h3 {
+	color: #344850;
+        font-family: 'Courgette', cursive;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+
+
+
+
+	
+
+
+	
+	
